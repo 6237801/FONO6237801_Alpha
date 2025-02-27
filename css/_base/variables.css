@@ -1,0 +1,19 @@
+:root {
+    --bleu: #000091;
+    --blanc: #FFFFFF;
+    --rouge: #E1000F;
+    --or: #FFD700;
+    --noir: #000000;
+
+    --bleu-fonce: #000045;
+    --blanc-fonce: #9E9E9E;
+    --rouge-fonce: #95000A;
+    --or-fonce: #CCAC00;
+    --noir-fonce: #171717;
+
+    --bleu-pale: #0000DE;
+    --blanc-pale: #F3F3F3;
+    --rouge-pale: #FF2F3C;
+    --or-pale: #FDFF4D;
+    --noir-pale: #585858;
+}

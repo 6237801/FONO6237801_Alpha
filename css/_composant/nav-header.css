@@ -1,0 +1,7 @@
+.nav--header {
+    position: sticky;
+    background-color: var(--noir-fonce);
+    display: flex;
+    color: var(--blanc);
+    padding: 16px;
+}
