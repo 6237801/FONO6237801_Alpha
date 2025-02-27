@@ -4,4 +4,13 @@
     display: flex;
     color: var(--blanc);
     padding: 16px;
+    justify-content: space-between;
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        font-size: 32px;
+    }
 }
