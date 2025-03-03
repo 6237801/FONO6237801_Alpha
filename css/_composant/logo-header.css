@@ -1,8 +1,8 @@
-/*[ STRUCTURE GÉNÉRALE DE LA PAGE ]*/
+/*[ COMPOSANT LOGO HEADER ]*/
 /* ------------------------------------------------------------ */
-.interface {
+.header--logo {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 96px;
 }

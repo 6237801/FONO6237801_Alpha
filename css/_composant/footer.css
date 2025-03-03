@@ -1,0 +1,27 @@
+/*[ COMPOSANT FOOTER ]*/
+/* ------------------------------------------------------------ */
+
+footer {
+    background-color: var(--noir-fonce);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.liens--sociaux{
+    padding: inherit;
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.liens--sociaux a{
+
+    width: 16px;
+    height: 16px;
+}

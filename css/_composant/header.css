@@ -1,3 +1,20 @@
-header {
-    background-color: red;
+/*[ COMPOSANT HEADER ]*/
+/* ------------------------------------------------------------ */
+
+.header--video {
+    background-color: var(--bleu-fonce);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+}
+
+.btn--reserver {
+    position: relative;
+    top: 3rem;
+    background-color: var(--noir);
+    font-size: 32px;
+    color: var(--or-fonce);
+    border: 1px var(--or-fonce) solid;
+    padding: 0.25rem 2rem;
 }

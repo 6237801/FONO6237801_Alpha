@@ -1,8 +1,11 @@
-/*[ STRUCTURE GÉNÉRALE DE LA PAGE ]*/
+/*[ COMPOSANT LOGO FOOTER ]*/
 /* ------------------------------------------------------------ */
-.interface {
+
+.footer--logo {
+    width: 160px;
+    height: 96px;
+    background-color: var(--blanc-pale);
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }

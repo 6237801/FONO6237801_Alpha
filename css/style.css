@@ -1,4 +1,5 @@
 /* [ Importation du dossier _base ] */
+@import url("_base/dev.css");
 @import url("_base/reset.css");
 @import url("_base/typo.css");
 @import url("_base/variables.css");
@@ -6,5 +7,10 @@
 /* [ Importation du dossier _composant ] */
 @import url("_composant/header.css");
 @import url("_composant/nav-header.css");
+@import url("_composant/logo-header.css");
+@import url("_composant/footer.css");
+@import url("_composant/logo-footer.css");
+@import url("_composant/info-footer.css");
 
 /* [ Importation du dossier _layout ] */
+@import url("_layout/structure.css");
