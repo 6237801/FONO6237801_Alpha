@@ -1,14 +1,22 @@
+/*[ FOOTER INFO ]*/
+/* ------------------------------------------------------------ */
+
 .footer--info {
     border-top: 1px var(--blanc-pale) solid;
     border-bottom: 1px var(--blanc-pale) solid;
     padding: inherit;
     color: var(--blanc-pale);
-    width: 80%;
+    width: 85%;
 
-    display: flex;
-    
 }
 
 .footer--info div {
-    border: 5px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+.footer--info div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
 }

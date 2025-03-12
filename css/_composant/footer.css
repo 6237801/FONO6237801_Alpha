@@ -21,7 +21,11 @@ footer {
 
 
 .liens--sociaux a{
-
     width: 16px;
     height: 16px;
+}
+
+.legal {
+    margin-top: 16px;
+    font-size: 12px;
 }

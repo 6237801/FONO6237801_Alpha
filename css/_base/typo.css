@@ -1,9 +1,33 @@
-@font-face {
+/*[ TYPOGRAPHIE ]*/
+/* ------------------------------------------------------------ */
+
+@font-face { /* Crimson Text */
     font-family: 'Crimson Text';
+    font-family: sans-serif;
     src: url(../../assets/typos/Crimson_Text/CrimsonText-Regular.ttf);
 }
 
-@font-face {
+@font-face { /* Aesthetic Beauty */
     font-family: 'Aesthetic Beauty';
+    font-family: serif;
     src: url(../../assets/typos/Aesthetic\ Beauty\ CF.otf);
 }
+
+@font-face { /* Asimilates */
+    font-family: 'Asimilates';
+    font-family: serif;
+    src: url(../../assets/typos/asimilates-Regular.ttf);
+}
+
+@font-face { /* Graziela Script */
+    font-family: 'Graziela Script';
+    font-family: serif;
+    src: url(../../assets/typos/La_Graziela_Script_Demo.otf);
+}
+
+@font-face { /* Stagera */
+    font-family: 'Stagera';
+    font-family: serif;
+    src: url(../../assets/typos/La_Graziela_Script_Demo.otf);
+}
+

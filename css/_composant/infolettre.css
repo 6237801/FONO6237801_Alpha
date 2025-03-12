@@ -1,0 +1,31 @@
+/*[ FOOTER INFO ]*/
+/* ------------------------------------------------------------ */
+
+.footer--infolettre {
+    margin-top: 16px;
+    display: grid;
+    grid-template-rows: 16px 1fr;
+    grid-template-columns: 65% 30%;
+    row-gap: 8px;
+    column-gap: 5%;
+    grid-auto-rows: 8px;
+}
+
+.footer--infolettre :nth-child(1) {
+    grid-auto-rows: 8px;
+}
+
+.footer--infolettre :nth-child(2), .footer--infolettre :nth-child(3) {
+    padding: 8px;
+}
+
+.footer--infolettre #infolettre--texte {
+    background-color: var(--blanc);
+    color: var(--noir);
+    grid-column: 1 / 2;
+}
+
+.footer--infolettre #infolettre--submit {
+    background-color: var(--rouge-fonce);
+    text-align: center;
+}

@@ -25,8 +25,8 @@ body {
   font-family: 'Crimson Text';
   font-size: 16px;
   line-height: 1.5;
-  background-color: #fff; /* Fond blanc par défaut */
-  color: #000; /* Couleur du texte par défaut */
+  background-color: var(--noir);
+  color: var(--blanc); /* Couleur du texte par défaut */
 }
 
 /* Reset des styles pour les liens */
