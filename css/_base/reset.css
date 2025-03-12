@@ -22,7 +22,8 @@ html {
 
 /* Reset des éléments de base */
 body {
-  font-family: sans-serif;
+  font-family: 'Crimson Text';
+  font-size: 16px;
   line-height: 1.5;
   background-color: #fff; /* Fond blanc par défaut */
   color: #000; /* Couleur du texte par défaut */
