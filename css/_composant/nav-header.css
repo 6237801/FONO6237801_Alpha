@@ -4,6 +4,9 @@
 
 .nav--header {
     position: sticky;
+    top:0;
+    width: 100%;
+    z-index: 5;
     background-color: var(--noir-fonce);
     display: flex;
     color: var(--blanc);

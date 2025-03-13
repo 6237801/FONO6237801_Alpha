@@ -12,6 +12,8 @@
 @import url("_composant/logo-footer.css");
 @import url("_composant/info-footer.css");
 @import url("_composant/infolettre.css");
+@import url("_composant/div-contenu.css");
+@import url("_composant/horaire.css");
 
 /* [ Importation du dossier _layout ] */
 @import url("_layout/structure.css");
