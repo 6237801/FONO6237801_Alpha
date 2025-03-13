@@ -6,4 +6,5 @@
     align-items: center;
     height: 96px;
     background-color: var(--blanc);
+    color: var(--noir);
 }
