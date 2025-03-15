@@ -26,6 +26,7 @@ footer {
 }
 
 .legal {
+    align-self: center;
     margin-top: 16px;
     font-size: 12px;
 } 

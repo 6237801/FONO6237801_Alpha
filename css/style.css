@@ -14,6 +14,7 @@
 @import url("_composant/infolettre.css");
 @import url("_composant/div-contenu.css");
 @import url("_composant/horaire.css");
+@import url("_composant/nav-menu.css");
 
 /* [ Importation du dossier _layout ] */
 @import url("_layout/structure.css");

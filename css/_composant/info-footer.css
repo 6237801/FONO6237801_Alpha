@@ -1,12 +1,15 @@
 /*[ FOOTER INFO ]*/
 /* ------------------------------------------------------------ */
 
+footer .footer--info {
+    width: 85%;
+}
 .footer--info {
     border-top: 1px var(--blanc-pale) solid;
     border-bottom: 1px var(--blanc-pale) solid;
     padding: inherit;
     color: var(--blanc-pale);
-    width: 85%;
+    width: 100%;
 
 }
 
@@ -20,3 +23,9 @@
     justify-content: flex-start;
     gap: 8px;
 }
+
+.nav--menu .footer--info div {
+    padding: 0;
+}
+
+

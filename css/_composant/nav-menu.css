@@ -1,0 +1,82 @@
+/*[ COMPOSANT NAV MENU ]*/
+/* ------------------------------------------------------------ */
+
+.nav--menu {
+    background-color: var(--noir-fonce);
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 6;
+    padding-bottom: 16px;
+}
+
+.nav--menu div {
+    padding: 16px 0;
+}
+
+.fermer--bouton {
+    border-bottom: 1px var(--blanc-pale) solid;
+    display: flex;
+    justify-content: end;
+}
+
+.fermer--bouton button img {
+    width: 32px;
+    height: 32px;
+    fill: var(--blanc-pale);
+}
+
+
+.nav--menu--liste {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0;
+    font-size: 1.5rem;
+    font-family: 'Asimilates';
+
+}
+
+.nav--menu--liste li {
+    justify-content: space-between;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--blanc-pale);
+
+    &:first-child {
+        color: var(--or);
+        stroke: none;
+    }
+
+    img {
+        height: 32px;
+    }
+}
+
+.nav--menu--menu {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family: 'Asimilates';
+}
+
+.nav--menu--menu button {
+    background-image: url("../../assets/images/svg/placeholder.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    padding: 16px 0;
+    text-align: left;
+    color: var(--blanc-pale);
+}
+
+.nav--menu--menu button div {
+    padding: 0 32px;
+    background: rgba(23, 23, 23, 0.5);
+}
