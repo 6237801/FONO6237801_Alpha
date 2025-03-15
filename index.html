@@ -11,13 +11,13 @@
 
 <body>
     <div class="nav--header">
-        <a class="material-symbols-outlined">menu</a>
+        <a class="material-symbols-outlined nav--btn" onclick="OuvrirNav()">menu</a>
         <a class="material-symbols-outlined">account_circle</a>
     </div>
-    <div class="nav--menu">
+    <aside class="nav--menu">
         <div class="fermer--bouton">
             <button>
-                <img src="assets/images/svg/fermer.svg" alt="">
+                <img src="assets/images/svg/fermer.svg" onclick="FermerNav()" alt="">
             </button>
         </div>
         <ul class="nav--menu--liste">
@@ -70,57 +70,58 @@
             </form>
         </div>
         <p class="legal">©La Table d'Olivier - 2025</p>
-    </div>
-    <header>
-        <div class="header--logo">
-            <p>LOGO</p>
-        </div>
-        <div class="header--video">
-            <a class="btn--reserver" href="">Réserver</a>
-        </div>
-    </header>
-    <main>
-        <div class="div--contenu horaire">
-            <h2>Heures d'ouverture</h2>
-            <div>
-                <p>Nous sauront ouverts pour la semaine de <u>9h à 21h</u>
-                    et de <u>8h à 23h</u> pour le weekend.</p>
-                <img src="assets/images/svg/placeholder.svg" alt="">
-                <button class="en-savoir-plus">En savoir plus ></button>
+    </aside>
+        <header>
+            <div class="header--logo">
+                <p>LOGO</p>
             </div>
-        </div>
-    </main>
-    <footer>
-        <div class="footer--logo">
-            <p>LOGO</p>
-        </div>
-        <div class="liens--sociaux">
-            <a href=""><img src="assets/images/svg/facebook.svg" alt=""></a>
-            <a href=""><img src="assets/images/svg/linkedin.svg" alt=""></a>
-            <a href=""><img src="assets/images/svg/instagram.svg" alt=""></a>
-            <a href=""><img src="assets/images/svg/youtube.svg" alt=""></a>
-        </div>
-        <div class="footer--info">
-            <div>
+            <div class="header--video">
+                <a class="btn--reserver" href="">Réserver</a>
+            </div>
+        </header>
+        <main>
+            <div class="div--contenu horaire">
+                <h2>Heures d'ouverture</h2>
                 <div>
-                    <a>À propos de nous</a>
-                    <a>FAQ</a>
-                </div>
-                <div>
-                    <a>450-123-4567</a>
-                    <a>unemail@restaurant.ca</a>
-                    <a>1234, Rue de Joe</a>
-                    <a>1A2 3B4</a>
+                    <p>Nous sauront ouverts pour la semaine de <u>9h à 21h</u>
+                        et de <u>8h à 23h</u> pour le weekend.</p>
+                    <img src="assets/images/svg/placeholder.svg" alt="">
+                    <button class="en-savoir-plus">En savoir plus ></button>
                 </div>
             </div>
-            <form class="footer--infolettre">
-                <label for="">Infolettre</label>
-                <input type="text" name="infolettre--texte" id="infolettre--texte" placeholder="Adresse courriel">
-                <input type="submit" name="" id="infolettre--submit" value="S'abonner">
-            </form>
-        </div>
-        <p class="legal">©La Table d'Olivier - 2025</p>
-    </footer>
+        </main>
+        <footer>
+            <div class="footer--logo">
+                <p>LOGO</p>
+            </div>
+            <div class="liens--sociaux">
+                <a href=""><img src="assets/images/svg/facebook.svg" alt=""></a>
+                <a href=""><img src="assets/images/svg/linkedin.svg" alt=""></a>
+                <a href=""><img src="assets/images/svg/instagram.svg" alt=""></a>
+                <a href=""><img src="assets/images/svg/youtube.svg" alt=""></a>
+            </div>
+            <div class="footer--info">
+                <div>
+                    <div>
+                        <a>À propos de nous</a>
+                        <a>FAQ</a>
+                    </div>
+                    <div>
+                        <a>450-123-4567</a>
+                        <a>unemail@restaurant.ca</a>
+                        <a>1234, Rue de Joe</a>
+                        <a>1A2 3B4</a>
+                    </div>
+                </div>
+                <form class="footer--infolettre">
+                    <label for="">Infolettre</label>
+                    <input type="text" name="infolettre--texte" id="infolettre--texte" placeholder="Adresse courriel">
+                    <input type="submit" name="" id="infolettre--submit" value="S'abonner">
+                </form>
+            </div>
+            <p class="legal">©La Table d'Olivier - 2025</p>
+        </footer>
+    <script src="js/script.js"></script>
 
 </body>
 

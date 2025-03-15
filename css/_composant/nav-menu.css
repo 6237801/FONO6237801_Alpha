@@ -8,13 +8,20 @@
     flex-direction: column;
     position: sticky;
     top: 0;
-    width: 100%;
+    width: 0; /* On le change à 100% */
+    opacity: 0; /* On le change à 1 */
     z-index: 6;
     padding-bottom: 16px;
+    transition: all 0.3s;
 }
 
 .nav--menu div {
     padding: 16px 0;
+}
+
+.nav--menu div, .nav--menu ul {
+    opacity: 0; /* On le change à 1 */
+    transition: all 0.3s;
 }
 
 .fermer--bouton {

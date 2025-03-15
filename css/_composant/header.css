@@ -1,6 +1,11 @@
 /*[ COMPOSANT HEADER ]*/
 /* ------------------------------------------------------------ */
 
+header {
+    position: relative;
+    /* top: -64px; */
+}
+
 .header--video {
     background-color: var(--bleu-fonce);
     display: flex;
@@ -11,7 +16,7 @@
 
 .btn--reserver {
     position: relative;
-    top: 3rem;
+    top: rem;
     background-color: var(--noir);
     font-size: 32px;
     color: var(--or-fonce);
