@@ -20,3 +20,9 @@
         font-size: 32px;
     }
 }
+.nav--header div {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}

@@ -12,8 +12,13 @@
 <body>
     <div class="interface">
         <nav class="nav--header">
-            <a class="material-symbols-outlined nav--btn" onclick="OuvrirNav()">menu</a>
-            <a class="material-symbols-outlined">account_circle</a>
+            <div>
+                <a class="material-symbols-outlined nav--btn" onclick="OuvrirNav()">menu</a>
+                <a class="material-symbols-outlined">home</a>
+            </div>
+            <div>
+                <a class="material-symbols-outlined">account_circle</a>
+            </div>
         </nav>
         <nav class="nav--menu panneau--ferme">
             <div class="fermer--bouton">
@@ -72,16 +77,16 @@
             </div>
             <p class="legal">©La Table d'Olivier - 2025</p>
         </nav>
-
         <div>
-
             <main>
                 <div class="erreur">
                     <img src="../assets/images/svg/placeholder.svg" alt="">
                     <h2>Erreur 404</h2>
                     <h3>La page que vous cherchez n'est pas trouvable.</h3>
 
-                    <button>Retournez à la page d'accueil</button>
+                    <a href="../index.html">
+                        <button>Retourner à la page d'accueil</button>
+                    </a>
                 </div>
             </main>
 
