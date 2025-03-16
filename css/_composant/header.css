@@ -4,10 +4,12 @@
 header {
     position: relative;
     /* top: -64px; */
+    clear: both;
 }
 
 .header--video {
     background-color: var(--bleu-fonce);
+    background: url("../../assets/images/svg/placeholder.svg");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +18,7 @@ header {
 
 .btn--reserver {
     position: relative;
-    top: rem;
+    top: 3rem;
     background-color: var(--noir);
     font-size: 32px;
     color: var(--or-fonce);

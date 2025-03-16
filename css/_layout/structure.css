@@ -1,8 +1,14 @@
 /*[ STRUCTURE GÉNÉRALE DE LA PAGE ]*/
 /* ------------------------------------------------------------ */
+
 .interface {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-content: center;
+    z-index: 1;
+    &>div {
+        /* À améliorer */
+        position: relative;
+        top: 64px;
+    }
 }

@@ -2,32 +2,45 @@
 /* ------------------------------------------------------------ */
 
 .nav--menu {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    opacity: 0;
+    /* On le change à 1 */
+    width: 0;
+    /* On le change à 100% */
     background-color: var(--noir-fonce);
+    z-index: 6;
     padding: 0 16px;
     display: flex;
     flex-direction: column;
-    position: sticky;
-    top: 0;
-    width: 0; /* On le change à 100% */
-    opacity: 0; /* On le change à 1 */
-    z-index: 6;
-    padding-bottom: 16px;
     transition: all 0.3s;
+    float: left;
+    outline: none;
+    padding-bottom: 16px;
+    overflow: scroll;
 }
+
 
 .nav--menu div {
     padding: 16px 0;
 }
 
-.nav--menu div, .nav--menu ul {
-    opacity: 0; /* On le change à 1 */
+
+.nav--menu div,
+.nav--menu ul {
+    opacity: 0;
+    /* On le change à 1 */
     transition: all 0.3s;
 }
 
 .fermer--bouton {
+    opacity: 0;
     border-bottom: 1px var(--blanc-pale) solid;
     display: flex;
+    flex-direction: row;
     justify-content: end;
+    align-content: center;
 }
 
 .fermer--bouton button img {
@@ -86,4 +99,14 @@
 .nav--menu--menu button div {
     padding: 0 32px;
     background: rgba(23, 23, 23, 0.5);
+}
+
+.panneau--ferme,
+.panneau--ferme * {
+    z-index: -1;
+}
+
+.panneau--ouvert,
+.panneau--ouvert * {
+    z-index: 6;
 }

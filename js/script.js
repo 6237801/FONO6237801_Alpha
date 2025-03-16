@@ -9,6 +9,8 @@ const elementsPanneau = document.querySelectorAll(".nav--menu *")
 function OuvrirNav() {
     panneauNav.style.opacity = 1;
     panneauNav.style.width = "100%";
+    panneauNav.classList.add("panneau--ouvert");
+    panneauNav.classList.remove("panneau--ferme");
     setTimeout(e=> {
 
         for (let i=0; i < elementsPanneau.length; i++) {
@@ -25,6 +27,8 @@ function FermerNav() {
     }
     setTimeout(e=> {
         panneauNav.style.opacity = 0;
-        panneauNav.style.width = "0%";
+        panneauNav.style.width = 0;
+        panneauNav.classList.remove("panneau--ouvert");
+        panneauNav.classList.add("panneau--ferme");
     },300);
 }
